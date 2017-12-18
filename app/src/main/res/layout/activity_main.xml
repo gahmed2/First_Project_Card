@@ -16,47 +16,70 @@
         android:src="@drawable/udacity" />
 
     <TextView
+        android:id="@+id/zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="2dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="Where Interactive Learning" />
+
+    <TextView
         android:id="@+id/first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        android:layout_below="@id/zero"
         android:layout_centerHorizontal="true"
-        android:textSize="36sp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"
         android:textColor="@android:color/black"
+        android:text="Takes Place" />
 
-        android:text="Udacity" />
+    <TextView
+        android:id="@+id/site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:text="www.udacity.com" />
 
     <TextView
         android:id="@+id/second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/first"
+        android:layout_above="@id/third"
         android:layout_centerHorizontal="true"
-        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
         android:textColor="@android:color/black"
-
         android:text="2465 Latham St" />
 
     <TextView
         android:id="@+id/third"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/second"
+        android:layout_above="@id/fourth"
         android:layout_centerHorizontal="true"
-        android:textSize="30sp"
+        android:textSize="14sp"
         android:textColor="@android:color/black"
-
+        android:layout_margin="2dp"
         android:text="Mountain View, CA 94043" />
 
     <TextView
         android:id="@+id/fourth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/third"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textSize="32sp"
+        android:textSize="14sp"
         android:textColor="@android:color/black"
-
+        android:layout_marginBottom="5dp"
         android:text="650-555-5555" />
 
 </RelativeLayout>
